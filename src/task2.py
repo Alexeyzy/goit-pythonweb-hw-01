@@ -73,7 +73,6 @@ class LibraryManager:
 
 
 def main() -> None:
-    run_factory_task()
 
     library = Library()
     manager = LibraryManager(library)
